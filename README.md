@@ -65,6 +65,13 @@ DEPLOY:
 -------
 https://almabetter-youtube-subscriber-project.vercel.app/
 
+For support, 
+## Email
+- dhanushrithik5109@gmail.com
+  
+## Linkedin
+- https://www.linkedin.com/in/rithik-dhanush-6b3a6b250
+
 -----------------------------------------------------------------------------------------
 
 Thank You.
