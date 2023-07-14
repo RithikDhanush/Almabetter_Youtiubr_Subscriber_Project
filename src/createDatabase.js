@@ -1,3 +1,7 @@
+// This code connects to a MongoDB database using the provided connection URI (dbUrl) and Mongoose. 
+// It refreshes the data in the "subscribers" collection by deleting all existing documents and then inserting new documents from the data array. 
+// It logs relevant messages during the process and disconnects from the database when done.
+
 const mongoose = require("mongoose");
 const Subscriber = require("./models/subscriber");
 const data = require("./data");
