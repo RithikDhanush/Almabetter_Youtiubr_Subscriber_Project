@@ -1,5 +1,14 @@
+// express: This dependency is used to create an Express.js application.
+// It provides functions and utilities for handling HTTP requests, defining routes, 
+// and managing middleware.
 const express = require("express");
+
+// Subscriber: This line imports the Subscriber model from a file located at "./src/models/subscriber". 
+// Models in Express.js applications are typically used to define the structure and behavior of data stored in a database.
 const Subscriber = require("./src/models/subscriber");
+
+// path: This dependency is a built-in Node.js module used for working with file paths. 
+// It provides functions for manipulating and resolving file paths in a platform-independent way.
 const path = require("path");
 
 //invoking express function
