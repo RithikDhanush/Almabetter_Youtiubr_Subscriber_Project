@@ -1,14 +1,20 @@
+<!-- This code snippet represents an HTML document that displays information about routes in an 
+API for retrieving YouTube subscribers. -->
+
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- The <head> section contains metadata, such as character encoding and viewport settings. -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube subscribers</title>
+
+<!-- The <style> section defines CSS rules to style the HTML elements. -->
     <style>
         body{
-             background: linear-gradient(to left,rgb(255, 164, 89),rgb(255, 109, 133));
+             background: linear-gradient(to left,rgb(99, 135, 255),rgb(255, 109, 133));
         }
         div {
             padding-left: 50px;
@@ -36,13 +42,21 @@
     </style>
 </head>
 
+<!-- The <body> section contains the content of the webpage. -->
 <body>
     <div>
+
+<!-- The <h1> tags display headings with styled text. -->
         <h1><b>Get YouTube Subscribers</b></h1>
+
+<!-- The <hr> tags create horizontal lines for visual separation. -->
         <hr>
             <h1>These are the  routes in this API</h1><hr>
             <h1>You can try entering each route using the routes given below</h1><hr>
+
+<!-- The <ul> and <li> tags create an unordered list with items representing the routes available in the API. -->
         <ul>
+<!-- The text inside <em> and <b> tags is styled for emphasis. -->
             <li>GET <em><b>/subscribers</em></b>: Provides an array of all subscribers in the
                 database.</li>
             <li>GET <em><b>/subscribers/names</em></b>: Provides an array of subscribers with only two fields name and
